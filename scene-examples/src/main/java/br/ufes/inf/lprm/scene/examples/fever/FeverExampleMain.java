@@ -95,22 +95,6 @@ public class FeverExampleMain {
         }
     }
 
-    private static KnowledgeBase readKnowledgeBase() throws Exception {
-    	
-    	KnowledgeBuilder kbuilder = SituationKnowledgeBuilderFactory.newKnowledgeBuilder();
-    
-        kbuilder.add(ResourceFactory.newClassPathResource("br/ufes/inf/lprm/scene/examples/fever/FeverSituation.drl"), ResourceType.DRL);
-        
-        KnowledgeBuilderErrors errors = kbuilder.getErrors();
-        if (errors.size() > 0) {
-            for (KnowledgeBuilderError error: errors) {
-                System.err.println(error);
-            }
-            throw new IllegalArgumentException("Could not parse knowledge.");
-        }
-        
-        KnowledgeBase kbase = SituationKnowledgeBaseFactory.newKnowledgeBase(kbuilder);
-        return kbase;
-    }
+
 
 }
