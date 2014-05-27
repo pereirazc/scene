@@ -69,7 +69,8 @@
                     <include>br/ufes/inf/lprm/scene/base/listeners/*</include>
                     <include>br/ufes/inf/lprm/scene/base/logging/*</include>
 					<include>br/ufes/inf/lprm/scene/base/*</include>
-					<include>br/ufes/inf/lprm/scene/publishing/*</include>
+                    <include>br/ufes/inf/lprm/scene/exceptions/*</include>
+                    <include>br/ufes/inf/lprm/scene/publishing/*</include>
 					<include>br/ufes/inf/lprm/scene/publishing/sinos/*</include>
 					<include>br/ufes/inf/lprm/scene/publishing/sinos/publisher/*</include>
 				</includes>
