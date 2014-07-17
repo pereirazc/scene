@@ -7,7 +7,6 @@
   <packaging>jar</packaging>
   <name>SiNoS</name>
   <properties>
-    <drools.version>5.5.0.Final</drools.version>
 	<github.global.server>github</github.global.server>
   </properties>
 	<profiles>
@@ -68,9 +67,9 @@
 				<source>1.7</source>
                 <target>1.7</target>
 				<includes>
-				  <include>**/publisher/*</include>
-				  <include>**/common/*</include>
-				  <include>**/channel/*</include>		  
+				  <include>br/ufes/inf/lprm/sinos/publisher/*</include>
+				  <include>br/ufes/inf/lprm/sinos/common/*</include>
+				  <include>br/ufes/inf/lprm/sinos/channel/*</include>			  
 				</includes>	
 			  </configuration>
 			</plugin>
@@ -106,13 +105,6 @@
 	  </profile>
 	</profiles>
   <dependencies>
-      <!--drools-->
-      <dependency>
-		<groupId>org.drools</groupId>
-		<artifactId>knowledge-api</artifactId>
-		<version>${drools.version}</version>
-		<type>jar</type>
-      </dependency>
 	  <dependency>
 		<groupId>br.ufes.inf.lprm</groupId>
 		<artifactId>situation-api</artifactId>
