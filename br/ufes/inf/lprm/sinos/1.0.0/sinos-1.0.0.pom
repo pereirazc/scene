@@ -68,9 +68,9 @@
 				<source>1.7</source>
                 <target>1.7</target>
 				<includes>
-				  <include>br/ufes/inf/lprm/sinos/publisher/*</include>
-				  <include>br/ufes/inf/lprm/sinos/common/*</include>
-				  <include>br/ufes/inf/lprm/sinos/channel/*</include>			  
+				  <include>**/publisher/*</include>
+				  <include>**/common/*</include>
+				  <include>**/channel/*</include>		  
 				</includes>	
 			  </configuration>
 			</plugin>
