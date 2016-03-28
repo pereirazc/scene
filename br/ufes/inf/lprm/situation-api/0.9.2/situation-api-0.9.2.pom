@@ -7,7 +7,7 @@
   <packaging>jar</packaging>
   <name>situation-api</name>
   <properties>
-    <drools.version>6.0.0.Final</drools.version>
+    <drools.version>5.5.0.Final</drools.version>
     <github.global.server>github</github.global.server>
   </properties>
   <build>
@@ -22,7 +22,7 @@
 			<plugin>
 				<groupId>com.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
-				<version>0.8</version>
+				<version>0.12</version>
 				<configuration>
 					<message>Maven artifacts for ${project.version}</message>  <!-- git commit message -->
 					<noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
